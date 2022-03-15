@@ -32,7 +32,7 @@ export default function App() {
         <View style={styles.bookinfoback}>
           <View style={styles.bookinfo}>
             <Text style={styles.infotext}>
-              What is the importance of books in our life? Books play a
+              What is the importance of books in our life Books play a
               quintessential role in every student’s life by introducing them to
               a world of imagination, providing knowledge of the outside world,
               improving their reading, writing and speaking skills as well as
@@ -46,6 +46,48 @@ export default function App() {
               student’s life, essays on importance of reading books, quotes and
               more!
             </Text>
+          </View>
+        </View>
+
+        {/* books sample photos and info */}
+        <View style={styles.sampleback}>
+          <Text style={styles.headingone}>Books</Text>
+
+          {/* books sample phots and info boxone */}
+          <View style={styles.boxone}>
+            <Image
+              style={styles.bookone}
+              source={require("./assets/booksimages/book1.jpg")}
+            />
+            <Text style={styles.bookauthor}>
+              In Search of Lost Time by Marcel Proust
+            </Text>
+          </View>
+
+          <View style={styles.boxone}>
+            <Image
+              style={styles.bookone}
+              source={require("./assets/booksimages/book2.jpg")}
+            />
+            <Text style={styles.bookauthor}>Ulysses by James Joyce</Text>
+          </View>
+
+          <View style={styles.boxone}>
+            <Image
+              style={styles.bookone}
+              source={require("./assets/booksimages/book4.jpg")}
+            />
+            <Text style={styles.bookauthor}>
+              One Hundred Years of Solitude by Gabriel Garcia Marquez
+            </Text>
+          </View>
+
+          <View style={styles.boxone}>
+            <Image
+              style={styles.bookone}
+              source={require("./assets/booksimages/book3.jpg")}
+            />
+            <Text style={styles.bookauthor}>Don Quixote by Miguel de</Text>
           </View>
         </View>
       </ScrollView>
@@ -110,5 +152,34 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: "bold",
     lineHeight: 25,
+  },
+
+  sampleback: {
+    flexDirection: "column",
+    alignItems: "center",
+    width: "100%",
+  },
+
+  headingone: {
+    fontSize: 30,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+
+  boxone: {
+    marginBottom: 10,
+    padding: 25,
+  },
+
+  bookone: {
+    height: 500,
+    width: 300,
+  },
+
+  bookauthor: {
+    marginTop: 10,
+    fontSize: 20,
+    fontWeight: "bold",
+    textAlign: "center",
   },
 });
