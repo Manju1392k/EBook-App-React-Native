@@ -1,12 +1,12 @@
 {
   "expo": {
     "name": "EBook",
-    "slug": "EBook",
-    "version": "1.0.0",
+    "slug": "E-Book",
+    "version": "1.1.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon.jpg",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
