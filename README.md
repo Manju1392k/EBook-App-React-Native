@@ -10,7 +10,7 @@ https://user-images.githubusercontent.com/66934377/158441640-304514d3-0ed7-47ee-
 
 ### FrameWork And Version's
 
-| FramWork  | Version's |
+| FrameWork  | Version's |
 | ------------- | ------------- |
 | React Native  | 0.67  |
 | Node.js  | 16.14.0  |
