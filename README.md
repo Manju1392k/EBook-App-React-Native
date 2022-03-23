@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/66934377/158441640-304514d3-0ed7-47ee-
 
 # FrameWork
 
-The Below Framework's is used in this Project. To run this Projec. This Framework's has been installed in system with same Vesion or Lastest Version.
+The Below Framework's is used in this Project. To run this Projec. This Framework's has been installed in system with same Vesion or Latest Version.
 
 | FrameWork  | Version's |
 | ------------- | ------------- |
