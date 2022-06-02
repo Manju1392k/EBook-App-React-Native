@@ -10,7 +10,11 @@
 
 This App is tested and Runed in Android Emulator Only.
 
+<div align='center'>
+
 https://user-images.githubusercontent.com/66934377/158441640-304514d3-0ed7-47ee-b6a9-91e87359045c.mp4
+     
+</div>
 
 ---
 
